@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Manglo';
+    src: url('Manglo.woff') format('woff'), 
+         url('Manglo.ttf')  format('truetype'); 
+}
+
 body {
     background-image: url("cityscape.jpg");
     background-color: #cccccc;
@@ -9,16 +15,14 @@ a {
 
 h1 {
     color: #ffc33c;
-    font-family: "Manglo";
-    src: url("Manglo.ttf");
+    font-family: 'Manglo'; 
     text-shadow: 0.1em 0.1em 0.2em #aabb22, 
     -1.5px 0 #ffffff, 0 1.5px #ffffff;    
 }
 
 h3 {
     color: #ff2222;
-    font-family: "Manglo";
-    src: url("Manglo.ttf");
+    font-family: 'Manglo';    
     text-shadow: 0.1em 0.1em 0.2em #aabb22, 
     -1.5px 0 #ffffff, 0 1.5px #ffffff;    
 }
